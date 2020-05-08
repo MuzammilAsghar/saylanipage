@@ -1,0 +1,186 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+ section,.container,.projects,.counter-content,.box-gallery,.content-intro,.events,.footer-content{
+  width: 100%;
+} 
+.container{
+  padding: 0px 20px;
+}
+.top-header {
+    padding: 21px 0px 52px 0px;
+  }
+.top-header-content{
+  width: 33.33333%;
+}
+.top-header-content{
+  padding: 4px 7px;
+}
+.large-content {
+    text-align: left;
+    font-size: 13px;
+    line-height: 1.2;
+}
+.bottom-header {
+    padding: 10px 0px 18px 0px;
+}
+.bottom-content,{
+  width: 60%;
+}
+.buttons a {
+  padding:4px 6px;
+}
+.nav {
+    width: 67%;
+    float: right;
+    line-height: 1;
+}
+.menu > li {
+    padding: 19px 0px 0px 0px;
+  }
+.brand-logo {
+    width: 30%;
+}
+.content-intro {
+    width: 82%;
+    margin: 0 auto;
+}
+.counter-content,.box{
+  width: 50%;
+}
+.box-gallery{
+  width: 33%;
+  margin: 1px;
+}
+.box-sm{
+  width: 89%;
+}
+.projects{
+  width: 61%;
+}
+.events{
+  width: 39%;
+}
+footer{
+  display: table;
+  margin: 0 auto;
+}
+.box{
+   margin: 10px 0px;
+}
+.footer-content {
+    width: 33.3333%;
+  }
+  .footer-content h5 {
+    width: 217px;
+  }
+  .owl-nav{
+  display: none;
+}
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+ section,.container,.projects,.counter-content,.box-gallery,.content-intro,.box-sm,.top-header-content,.events{
+  width: 100%;
+} 
+.counter-content,.box,.footer-content{
+  width: 50%;
+}
+.box-gallery{
+  width: 49.5555555%;
+}
+footer{
+  display: table;
+  margin: 0 auto;
+}
+.box{
+   margin: 10px 0px;
+}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+ section,.container,.projects,.counter-content,.box-gallery,.content-intro,.box-sm,.top-header-content,.events,.footer-content{
+  width: 100%;
+} 
+.container{
+  padding: 0px 15px;
+}
+.top-header-content{
+  float: left;
+  padding: 6px 0px;
+}
+.top-header{
+  padding: 13px 0px 150px 0px;
+    text-align: center;
+    line-height: 1.5;
+}
+.buttons{
+  text-align: center;
+}
+.bottom-header{
+  display: none;
+}
+p{
+  font-size: 16px;
+}
+h5{
+
+}
+.events{
+  margin-top: 20px;
+}
+.box{
+      width: 100%;
+    margin: 9px 0px;
+}
+
+.footer-content{
+  padding-bottom: 10px;
+}
+.box-sm{
+  margin: 7px 0px;
+}
+#gallery{
+  padding: 0;
+  padding-bottom:10px; 
+}
+.boxicons{
+
+    padding: 86px 104px;
+}
+.img-heading-center{
+  line-height: 1.5;
+}
+.owl-nav{
+  display: none;
+}
+#scrollToTop{
+    font-size: 24px;
+    padding: 1px 6px;
+    border-radius: 4px;
+}
+.scroll:hover {
+    background: none;
+}
+.bottom-footer {
+    padding: 7px 0px;
+    text-align: center;
+}
+}
